@@ -1,13 +1,16 @@
-
+import React from "react";
+import FriendList from "./Components/FriendList";
 
 function App() {
-  
-
   return (
     <>
-      <button className='button'>clas</button>
+      <div className="app">
+        <div className="sidebar">
+          <FriendList />
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
